@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aradhy Dev Tiwari</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/fa8926fdc8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="572c7271-fee3-4973-beec-51f31b90e93e.png" class="logo" alt="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#port">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-calendar-xmark"></i>
+        </nav>
+
+        <div class="nav-text">
+            <p>Full Stack Developer</p>
+            <h1>I'm <span>Aradhy Dev Tiwari</span><br>From India</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+
+            <div class="col1">
+                <img src="WhatsApp Image 2026-01-03 at 18.37.31.jpeg" class="aboutimg" alt="">
+            </div>
+
+            <div class="col2">
+                <h1>About Me</h1>
+                <p>
+                    Hello! I'm Aradhy Dev Tiwari, a passionate Full Stack Developer from India.
+                    I love building responsive web applications and exploring new technologies.
+                </p>
+
+                <!-- TABS -->
+                <div class="tabtitiles">
+                    <p class="tablinks active" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                    <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                </div>
+
+                <!-- TAB CONTENT -->
+                <div class="content" id="skills" style="display: block;">
+                    <ul>
+                        <li><span>Full Stack</span><br>Frontend & Backend</li>
+                        <li><span>Frontend</span><br>HTML, CSS, JavaScript, React</li>
+                        <li><span>Backend</span><br>Java, Node.js, Express, MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="content" id="education">
+                    <ul>
+                        <li><span>B.Tech (CSE)</span><br>Computer Science Engineering</li>
+                        <li><span>Core Subjects</span><br>DSA, DBMS, OS, CN</li>
+                    </ul>
+                </div>
+
+                <div class="content" id="experience">
+                    <ul>
+                        <li><span>Full Stack Intern</span><br>Web apps & REST APIs</li>
+                        <li><span>Projects</span><br>Portfolio & backend systems</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--My sertvices-->
+<div id="service">
+    <div class="container">
+        <h1 class="serviceh1">My Services</h1>
+
+        <div class="contain">
+            <div class="box">
+                <i class="fa-solid fa-computer"></i>
+                <h1>Web Developer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-code"></i>
+                <h1>CP</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-database"></i>
+                <h1>Database</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio-->
+<div id="port">
+    
+    <div class="container">
+        <h1 class="serviceh1">My work</h1>
+        <div class="list">
+            <div class="item">
+                <img src="work-1.png" alt="">
+              <div class="layer">
+                  <h1>simon gamw</h1>
+                <p>A fun memory-based game where players repeat an increasing sequence of colors to test focus and recall.</p>
+                <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+              </div>
+            </div>
+             <div class="item">
+                <img src="work-2.png" alt="">
+                 <div class="layer">
+                      <h1>spotify clone</h1>
+                <p>A responsive Spotify clone built with React and styled-components.</p>
+                <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+                 </div>
+            </div>
+             <div class="item">
+                <img src="work-3.png" alt="">
+                  <div class="layer">
+                      <h1>to do list</h1>
+                <p>A responsive to do list built  styled-components.</p>
+                <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+                  </div>
+                 
+            </div>
+            
+        </div>
+        <div class="see">
+            <a  href="#">See more</a>
+        </div>
+    </div>
+    <!--contact-->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="left">
+                <h1 class="serviceh1">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> tiwariArdhy@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8383910935</p>
+
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/aradhy2006"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="see">
+                    <a id="1" href="my-cv.pdf" download>Download CV</a>
+                </div>
+            </div>
+
+            <div class="right">
+                <form name="YOUR_FORM_NAME">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea rows="6" name="Message" placeholder="Your Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="portfolio.js"></script>
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbxXdo_UUGSu4COa--QdgHCDDYKrX0dZ1VfZFC51Lgcs-HthlfPd_vbLeTW12wtauqce/exec'
+	const form = document.forms['YOUR_FORM_NAME']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                },5000);    
+                form.reset();
+            })
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+</body>
+</html>
